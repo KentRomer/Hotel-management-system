@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'hotel-gold': 'hsl(var(--hotel-gold))',
+				'hotel-gold-light': 'hsl(var(--hotel-gold-light))',
+				'hotel-navy': 'hsl(var(--hotel-navy))',
+				'hotel-navy-light': 'hsl(var(--hotel-navy-light))',
+				'hotel-success': 'hsl(var(--hotel-success))',
+				'hotel-warning': 'hsl(var(--hotel-warning))',
+				'hotel-info': 'hsl(var(--hotel-info))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +74,15 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-hero': 'var(--gradient-hero)',
+			},
+			boxShadow: {
+				'luxury': 'var(--shadow-luxury)',
+				'card': 'var(--shadow-card)',
 			},
 			keyframes: {
 				'accordion-down': {
